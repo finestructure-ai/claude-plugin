@@ -1,0 +1,20 @@
+{
+  "name": "finestructure",
+  "version": "0.1.0",
+  "description": "Deploy full-stack apps from Claude Code to Fine Structure: hosting, database, custom domains, AI agents, WhatsApp and email in one destination.",
+  "author": {
+    "name": "Fine Structure",
+    "email": "support@finestructure.ai",
+    "url": "https://finestructure.ai"
+  },
+  "homepage": "https://finestructure.ai",
+  "repository": "https://github.com/VoiceMind/finestructure-claude-plugin",
+  "license": "MIT",
+  "keywords": ["deploy", "hosting", "database", "domains", "mcp", "agents", "whatsapp"],
+  "mcpServers": {
+    "finestructure": {
+      "type": "http",
+      "url": "https://finestructure.ai/api/mcp"
+    }
+  }
+}

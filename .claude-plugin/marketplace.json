@@ -1,0 +1,15 @@
+{
+  "name": "finestructure",
+  "description": "Official Fine Structure plugins for Claude Code: deploy full-stack apps with hosting, database, domains and AI agents.",
+  "owner": {
+    "name": "Fine Structure",
+    "url": "https://finestructure.ai"
+  },
+  "plugins": [
+    {
+      "name": "finestructure",
+      "source": "./",
+      "description": "Deploy full-stack apps from Claude Code to Fine Structure: hosting, database, custom domains, AI agents, WhatsApp and email in one destination."
+    }
+  ]
+}
