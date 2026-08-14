@@ -32,7 +32,7 @@ All operations go through the `finestructure` MCP server (105 tools). Machine-re
 
 **Access control**: `set_route_policy` gates pages behind login; `set_entity_policy` controls data access; app members via `invite_app_member` / `update_app_member_role`.
 
-**Media**: `generate_image`, `generate_video` (check `estimate_video_cost` first), `generate_slideshow`. These spend account credits; only use when asked.
+**Media**: `generate_image`, `generate_video` (check `estimate_video_cost` first), `generate_slideshow`. These spend account credits; only use when asked. Media tools are not part of the OAuth connection: they require a static MCP token with media scopes, created in the Studio MCP Server tab and configured as an `Authorization: Bearer` header. If the tools are absent from the tool list, that is why; tell the user instead of retrying.
 
 ## Conventions
 
