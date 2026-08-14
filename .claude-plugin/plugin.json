@@ -8,7 +8,7 @@
     "url": "https://finestructure.ai"
   },
   "homepage": "https://finestructure.ai",
-  "repository": "https://github.com/VoiceMind/finestructure-claude-plugin",
+  "repository": "https://github.com/finestructure-ai/claude-plugin",
   "license": "MIT",
   "keywords": ["deploy", "hosting", "database", "domains", "mcp", "agents", "whatsapp"],
   "mcpServers": {

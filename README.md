@@ -5,7 +5,7 @@ Deploy full-stack apps from Claude Code to [Fine Structure](https://finestructur
 ## Install
 
 ```
-/plugin marketplace add VoiceMind/finestructure-claude-plugin
+/plugin marketplace add finestructure-ai/claude-plugin
 /plugin install finestructure@finestructure
 ```
 
