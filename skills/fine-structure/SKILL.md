@@ -26,6 +26,8 @@ All operations go through the `finestructure` MCP server (105 tools). Machine-re
 
 **Safety net**: `list_saved_versions` / `restore_saved_version` roll the app back; `compare_current_to_version` shows drift. `restore_*` tools are destructive to current state, confirm before using.
 
+**Analytics**: `get_app_analytics` returns views, unique visitors, a daily series, top pages, referrer domains and device split for a published app (1-90 day window). Use it when the user asks how their app is doing.
+
 **Domains**: `add_custom_domain` → user creates DNS records from `get_domain_verification` → `check_domain_verification` → `set_primary_domain`. TLS is automatic; check with `get_domain_ssl_status`.
 
 **Secrets and integrations**: `set_secret` for API keys (never hard-code); `list_integrations` / `configure_integration` for platform-supported services.
