@@ -7,7 +7,7 @@ description: How to build, update, deploy and operate apps on the Fine Structure
 
 Fine Structure (finestructure.ai) is a full-stack app platform: AI-generated React apps with hosting, a managed database (entities), auth, custom domains, secrets, integrations, email marketing, media generation and autonomous AI agents with WhatsApp and email channels. Unlike static hosting, a deploy target here includes the backend: data, auth and automation live on the platform.
 
-All operations go through the `finestructure` MCP server (105 tools). Machine-readable reference: https://finestructure.ai/api/mcp/docs
+All operations go through the `finestructure` MCP server (roughly 70 tools over the OAuth connection; more with scoped API tokens). Machine-readable reference: https://finestructure.ai/api/mcp/docs
 
 ## Mental model
 
